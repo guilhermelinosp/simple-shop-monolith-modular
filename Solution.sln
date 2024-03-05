@@ -13,15 +13,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.services.orders.infras
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.services.orders.domain", "source\shop-services-orders\shop.services.orders.domain\shop.services.orders.domain.csproj", "{9D9E8247-6A9A-4248-9B94-7A7A055DA398}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shop.services.orders", "shop.services.orders", "{1040BC42-8A16-49BE-B091-A8068E8E0DD1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shop-services-orders", "shop-services-orders", "{1040BC42-8A16-49BE-B091-A8068E8E0DD1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shop.services.products", "shop.services.products", "{427EABDD-4D0F-4E32-8550-9943FC5A31D1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shop-services-products", "shop-services-products", "{427EABDD-4D0F-4E32-8550-9943FC5A31D1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shop.services.customers", "shop.services.customers", "{14F51B34-AFF6-4E29-A03C-E088D1C48E51}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shop-services-customers", "shop-services-customers", "{14F51B34-AFF6-4E29-A03C-E088D1C48E51}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shop.services.payments", "shop.services.payments", "{7ACC995E-B332-4239-8061-1538861453BD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shop-services-payments", "shop-services-payments", "{7ACC995E-B332-4239-8061-1538861453BD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shop.services.gateway", "shop.services.gateway", "{B7BC9AF2-B90B-478A-9CAA-B2DB59F231C9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shop-services-gateway", "shop-services-gateway", "{B7BC9AF2-B90B-478A-9CAA-B2DB59F231C9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.services.customers.domain", "source\shop-services-customers\shop.services.customers.domain\shop.services.customers.domain.csproj", "{E2CCE989-2162-4A0E-BD53-92F20823871F}"
 EndProject
@@ -31,7 +31,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.services.customers.app
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.services.customers.api", "source\shop-services-customers\shop.services.customers.api\shop.services.customers.api.csproj", "{A0053664-24F2-41BE-9716-0A89072D2384}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shop.services.notifications", "shop.services.notifications", "{AD5BEBFD-7FA6-4F8C-B2C1-8C6B77BB0090}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shop-services-notifications", "shop-services-notifications", "{AD5BEBFD-7FA6-4F8C-B2C1-8C6B77BB0090}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.services.products.api", "source\shop-services-products\shop.services.products.api\shop.services.products.api.csproj", "{6A02039A-1881-44F3-8F7B-10C85B03CB8B}"
 EndProject
