@@ -1,0 +1,37 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/customers/{everything}",
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5151
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/orders/{everything}",
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5151
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/products/{everything}",
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5151
+        }
+      ]
+    }
+  ]
+}

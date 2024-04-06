@@ -3,49 +3,47 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{CDA75EB8-66C9-44D9-AC60-8672B2A2FC83}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{CDA75EB8-66C9-44D9-AC60-8672B2A2FC83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.services.orders.api", "source\shop-services-orders\shop.services.orders.api\shop.services.orders.api.csproj", "{64B4D157-F2BF-405D-81C2-DA64BB7CB4BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders.API", "Source\Core\Orders\Orders.API\Orders.API.csproj", "{64B4D157-F2BF-405D-81C2-DA64BB7CB4BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.services.orders.application", "source\shop-services-orders\shop.services.orders.application\shop.services.orders.application.csproj", "{8C23C58A-0D48-4AA9-9D07-2CDBA6655DDD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders.Application", "Source\Core\Orders\Orders.Application\Orders.Application.csproj", "{8C23C58A-0D48-4AA9-9D07-2CDBA6655DDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.services.orders.infrastructure", "source\shop-services-orders\shop.services.orders.infrastructure\shop.services.orders.infrastructure.csproj", "{88F9E479-62D9-4A81-8940-8CC1B56AB709}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders.Infrastructure", "Source\Core\Orders\Orders.Infrastructure\Orders.Infrastructure.csproj", "{88F9E479-62D9-4A81-8940-8CC1B56AB709}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.services.orders.domain", "source\shop-services-orders\shop.services.orders.domain\shop.services.orders.domain.csproj", "{9D9E8247-6A9A-4248-9B94-7A7A055DA398}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders.Domain", "Source\Core\Orders\Orders.Domain\Orders.Domain.csproj", "{9D9E8247-6A9A-4248-9B94-7A7A055DA398}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shop-services-orders", "shop-services-orders", "{1040BC42-8A16-49BE-B091-A8068E8E0DD1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Orders", "Orders", "{1040BC42-8A16-49BE-B091-A8068E8E0DD1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shop-services-products", "shop-services-products", "{427EABDD-4D0F-4E32-8550-9943FC5A31D1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Products", "Products", "{427EABDD-4D0F-4E32-8550-9943FC5A31D1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shop-services-customers", "shop-services-customers", "{14F51B34-AFF6-4E29-A03C-E088D1C48E51}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Customers", "Customers", "{14F51B34-AFF6-4E29-A03C-E088D1C48E51}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shop-services-payments", "shop-services-payments", "{7ACC995E-B332-4239-8061-1538861453BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Domain", "Source\Core\Customers\Customers.Domain\Customers.Domain.csproj", "{E2CCE989-2162-4A0E-BD53-92F20823871F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shop-services-gateway", "shop-services-gateway", "{B7BC9AF2-B90B-478A-9CAA-B2DB59F231C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Infrastructure", "Source\Core\Customers\Customers.Infrastructure\Customers.Infrastructure.csproj", "{B0FAAE58-4645-4EAF-A879-EBE17A34BAAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.services.customers.domain", "source\shop-services-customers\shop.services.customers.domain\shop.services.customers.domain.csproj", "{E2CCE989-2162-4A0E-BD53-92F20823871F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Application", "Source\Core\Customers\Customers.Application\Customers.Application.csproj", "{135BA5BA-7A26-463A-A9B9-0282CCDFE4DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.services.customers.infrastructure", "source\shop-services-customers\shop.services.customers.infrastructure\shop.services.customers.infrastructure.csproj", "{B0FAAE58-4645-4EAF-A879-EBE17A34BAAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.API", "Source\Core\Customers\Customers.API\Customers.API.csproj", "{A0053664-24F2-41BE-9716-0A89072D2384}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.services.customers.application", "source\shop-services-customers\shop.services.customers.application\shop.services.customers.application.csproj", "{135BA5BA-7A26-463A-A9B9-0282CCDFE4DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products.API", "Source\Core\Products\Products.API\Products.API.csproj", "{6A02039A-1881-44F3-8F7B-10C85B03CB8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.services.customers.api", "source\shop-services-customers\shop.services.customers.api\shop.services.customers.api.csproj", "{A0053664-24F2-41BE-9716-0A89072D2384}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products.Domain", "Source\Core\Products\Products.Domain\Products.Domain.csproj", "{71865BA6-E747-474C-B4F2-E27F79CE1CE4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shop-services-notifications", "shop-services-notifications", "{AD5BEBFD-7FA6-4F8C-B2C1-8C6B77BB0090}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products.Application", "Source\Core\Products\Products.Application\Products.Application.csproj", "{ECE13D48-467F-452F-88F8-B4F0FCE358DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.services.products.api", "source\shop-services-products\shop.services.products.api\shop.services.products.api.csproj", "{6A02039A-1881-44F3-8F7B-10C85B03CB8B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products.Infrastructure", "Source\Core\Products\Products.Infrastructure\Products.Infrastructure.csproj", "{0C21D607-64B4-4950-B7F4-6E1723EB181B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.services.products.domain", "source\shop-services-products\shop.services.products.domain\shop.services.products.domain.csproj", "{71865BA6-E747-474C-B4F2-E27F79CE1CE4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payments", "Source\Shared\Payments\Payments.csproj", "{DFEBF57C-04A3-47AF-9208-5F6821B7A279}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.services.products.application", "source\shop-services-products\shop.services.products.application\shop.services.products.application.csproj", "{ECE13D48-467F-452F-88F8-B4F0FCE358DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "Source\Shared\Gateway\Gateway.csproj", "{5AF42820-C973-40FA-82E7-9A6276EDCD09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.services.products.infrastructure", "source\shop-services-products\shop.services.products.infrastructure\shop.services.products.infrastructure.csproj", "{0C21D607-64B4-4950-B7F4-6E1723EB181B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications", "Source\Shared\Notifications\Notifications.csproj", "{090C6CD8-7D11-4E3E-88A2-5A5C840328F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.services.payments.api", "source\shop-services-payments\shop.services.payments.api\shop.services.payments.api.csproj", "{DFEBF57C-04A3-47AF-9208-5F6821B7A279}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A248494C-C841-44C7-B457-602BC5124699}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.services.gateway.api", "source\shop-services-gateway\shop.services.gateway.api\shop.services.gateway.api.csproj", "{5AF42820-C973-40FA-82E7-9A6276EDCD09}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shop.services.notifications.api", "source\shop-services-notifications\shop.services.notifications.api\shop.services.notifications.api.csproj", "{090C6CD8-7D11-4E3E-88A2-5A5C840328F1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{5DA951B5-354D-4DDA-9EDC-E818A0D267FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,27 +54,26 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{1040BC42-8A16-49BE-B091-A8068E8E0DD1} = {CDA75EB8-66C9-44D9-AC60-8672B2A2FC83}
 		{64B4D157-F2BF-405D-81C2-DA64BB7CB4BD} = {1040BC42-8A16-49BE-B091-A8068E8E0DD1}
 		{8C23C58A-0D48-4AA9-9D07-2CDBA6655DDD} = {1040BC42-8A16-49BE-B091-A8068E8E0DD1}
 		{9D9E8247-6A9A-4248-9B94-7A7A055DA398} = {1040BC42-8A16-49BE-B091-A8068E8E0DD1}
 		{88F9E479-62D9-4A81-8940-8CC1B56AB709} = {1040BC42-8A16-49BE-B091-A8068E8E0DD1}
-		{427EABDD-4D0F-4E32-8550-9943FC5A31D1} = {CDA75EB8-66C9-44D9-AC60-8672B2A2FC83}
-		{14F51B34-AFF6-4E29-A03C-E088D1C48E51} = {CDA75EB8-66C9-44D9-AC60-8672B2A2FC83}
-		{7ACC995E-B332-4239-8061-1538861453BD} = {CDA75EB8-66C9-44D9-AC60-8672B2A2FC83}
-		{B7BC9AF2-B90B-478A-9CAA-B2DB59F231C9} = {CDA75EB8-66C9-44D9-AC60-8672B2A2FC83}
 		{E2CCE989-2162-4A0E-BD53-92F20823871F} = {14F51B34-AFF6-4E29-A03C-E088D1C48E51}
 		{B0FAAE58-4645-4EAF-A879-EBE17A34BAAD} = {14F51B34-AFF6-4E29-A03C-E088D1C48E51}
 		{135BA5BA-7A26-463A-A9B9-0282CCDFE4DA} = {14F51B34-AFF6-4E29-A03C-E088D1C48E51}
 		{A0053664-24F2-41BE-9716-0A89072D2384} = {14F51B34-AFF6-4E29-A03C-E088D1C48E51}
-		{AD5BEBFD-7FA6-4F8C-B2C1-8C6B77BB0090} = {CDA75EB8-66C9-44D9-AC60-8672B2A2FC83}
 		{6A02039A-1881-44F3-8F7B-10C85B03CB8B} = {427EABDD-4D0F-4E32-8550-9943FC5A31D1}
 		{71865BA6-E747-474C-B4F2-E27F79CE1CE4} = {427EABDD-4D0F-4E32-8550-9943FC5A31D1}
 		{ECE13D48-467F-452F-88F8-B4F0FCE358DA} = {427EABDD-4D0F-4E32-8550-9943FC5A31D1}
 		{0C21D607-64B4-4950-B7F4-6E1723EB181B} = {427EABDD-4D0F-4E32-8550-9943FC5A31D1}
-		{DFEBF57C-04A3-47AF-9208-5F6821B7A279} = {7ACC995E-B332-4239-8061-1538861453BD}
-		{5AF42820-C973-40FA-82E7-9A6276EDCD09} = {B7BC9AF2-B90B-478A-9CAA-B2DB59F231C9}
-		{090C6CD8-7D11-4E3E-88A2-5A5C840328F1} = {AD5BEBFD-7FA6-4F8C-B2C1-8C6B77BB0090}
+		{A248494C-C841-44C7-B457-602BC5124699} = {CDA75EB8-66C9-44D9-AC60-8672B2A2FC83}
+		{5DA951B5-354D-4DDA-9EDC-E818A0D267FE} = {CDA75EB8-66C9-44D9-AC60-8672B2A2FC83}
+		{14F51B34-AFF6-4E29-A03C-E088D1C48E51} = {A248494C-C841-44C7-B457-602BC5124699}
+		{1040BC42-8A16-49BE-B091-A8068E8E0DD1} = {A248494C-C841-44C7-B457-602BC5124699}
+		{427EABDD-4D0F-4E32-8550-9943FC5A31D1} = {A248494C-C841-44C7-B457-602BC5124699}
+		{5AF42820-C973-40FA-82E7-9A6276EDCD09} = {5DA951B5-354D-4DDA-9EDC-E818A0D267FE}
+		{090C6CD8-7D11-4E3E-88A2-5A5C840328F1} = {5DA951B5-354D-4DDA-9EDC-E818A0D267FE}
+		{DFEBF57C-04A3-47AF-9208-5F6821B7A279} = {5DA951B5-354D-4DDA-9EDC-E818A0D267FE}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{64B4D157-F2BF-405D-81C2-DA64BB7CB4BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

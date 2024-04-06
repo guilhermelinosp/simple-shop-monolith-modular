@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <InvariantGlobalization>false</InvariantGlobalization>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <UserSecretsId>fe2e9bb4-d678-4aac-9cd0-98e7a681926c</UserSecretsId>
+        <RootNamespace>Gataway</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.3" />
+        <PackageReference Include="Ocelot" Version="23.2.2" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\..\..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
+    </ItemGroup>
+
+</Project>
