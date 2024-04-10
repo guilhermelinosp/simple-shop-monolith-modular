@@ -1,6 +1,5 @@
-namespace shop.services.products.infrastructure.Repositories;
+namespace Products.Infrastructure.Repositories;
 
 public class ProductRepository
 {
-	
 }

@@ -1,6 +1,6 @@
-using shop.services.customers.domain.VOs;
+using Customer.Domain.VOs;
 
-namespace shop.services.customers.domain.Events;
+namespace Customer.Domain.Events;
 
 public class CustomerUpdatedEvent : IDomainEvent
 {

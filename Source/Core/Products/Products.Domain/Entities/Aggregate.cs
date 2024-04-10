@@ -1,6 +1,6 @@
-using shop.services.products.domain.Events;
+using Products.Domain.Events;
 
-namespace shop.services.products.domain.Entities;
+namespace Products.Domain.Entities;
 
 public class Aggregate
 {

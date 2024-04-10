@@ -8,7 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Contexts\" />
+        <Folder Include="Contexts\"/>
     </ItemGroup>
 
 </Project>

@@ -1,0 +1,36 @@
+﻿services:
+  orders.api:
+    image: orders.api
+    build:
+      context: .
+      dockerfile: Source/Core/Orders/Orders.API/Dockerfile
+
+  customers.api:
+    image: customers.api
+    build:
+      context: .
+      dockerfile: Source/Core/Customers/Customers.API/Dockerfile
+
+  products.api:
+    image: products.api
+    build:
+      context: .
+      dockerfile: Source/Core/Products/Products.API/Dockerfile
+
+  gateway:
+    image: gateway
+    build:
+      context: .
+      dockerfile: Source/Shared/Gateway/Dockerfile
+
+  notifications:
+    image: notifications
+    build:
+      context: .
+      dockerfile: Source/Shared/Notifications/Dockerfile
+
+  payments:
+    image: payments
+    build:
+      context: .
+      dockerfile: Source/Shared/Payments/Dockerfile

@@ -1,4 +1,4 @@
-namespace shop.services.customers.domain.Events;
+namespace Customer.Domain.Events;
 
 public class CustomerCreatedEvent(Guid id, string fullName, string email) : IDomainEvent
 {

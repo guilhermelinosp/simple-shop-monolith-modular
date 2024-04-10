@@ -4,12 +4,10 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <RootNamespace>Order.Application</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Services\" />
-      <Folder Include="UseCases\" />
+        <Folder Include="Queries\Handlers\"/>
     </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-namespace shop.services.orders.domain.Entities;
+namespace Order.Domain.Entities;
 
 public class Customer(Guid id, string name, string email)
 {

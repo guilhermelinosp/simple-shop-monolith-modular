@@ -1,6 +1,4 @@
-using System;
-
-namespace shop.services.orders.domain.Entities;
+namespace Order.Domain.Entities;
 
 public class OrderItem(Guid productId, int quantity, decimal price)
 {

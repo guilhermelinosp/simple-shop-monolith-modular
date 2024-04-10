@@ -1,6 +1,5 @@
-namespace shop.services.customers.application;
+namespace Customer.Application;
 
 public class ApplicationInjection
 {
-	
 }

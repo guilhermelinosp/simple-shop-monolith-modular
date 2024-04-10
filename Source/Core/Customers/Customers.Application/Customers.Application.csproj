@@ -8,8 +8,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Services\" />
-      <Folder Include="UseCases\" />
+        <Folder Include="Services\"/>
+        <Folder Include="UseCases\"/>
     </ItemGroup>
 
 </Project>

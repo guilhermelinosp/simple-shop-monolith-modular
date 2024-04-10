@@ -45,6 +45,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A248494C-C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{5DA951B5-354D-4DDA-9EDC-E818A0D267FE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker Compose", "Docker Compose", "{FA800409-96DA-4084-9A50-4A7887D46587}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CI/CD", "CI/CD", "{E795C66A-3A04-4001-BB61-A59B18C2B77D}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\codeql.yml = .github\workflows\codeql.yml
+		.github\workflows\container-ci.yml = .github\workflows\container-ci.yml
+		.github\workflows\dependency.yml = .github\workflows\dependency.yml
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

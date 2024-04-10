@@ -4,12 +4,11 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <RootNamespace>Product.Application</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Services\" />
-      <Folder Include="UseCases\" />
+        <Folder Include="Services\"/>
+        <Folder Include="UseCases\"/>
     </ItemGroup>
 
 </Project>

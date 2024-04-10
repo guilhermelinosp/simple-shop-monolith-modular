@@ -1,10 +1,8 @@
-using shop.services.customers.domain.Entities;
-
-namespace shop.services.customers.domain.Repositories;
+namespace Customer.Domain.Repositories;
 
 public interface ICustomerRepository
 {
-	Task<Customer> FindByIdAsync(Guid id);
-	Task CreateAsync(Customer customer);
-	Task UpdateAsync(Customer customer);
+	Task<Entities.Customer> FindByIdAsync(Guid id);
+	Task CreateAsync(Entities.Customer customer);
+	Task UpdateAsync(Entities.Customer customer);
 }

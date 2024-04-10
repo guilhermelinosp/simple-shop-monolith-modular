@@ -1,6 +1,5 @@
-namespace shop.services.customers.infrastructure;
+namespace Customer.Infrastructure;
 
 public class InfrastructureInjection
 {
-	
 }

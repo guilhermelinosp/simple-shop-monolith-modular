@@ -1,6 +1,5 @@
-namespace shop.services.customers.domain.Events;
+namespace Customer.Domain.Events;
 
 public interface IDomainEvent
 {
-	
 }

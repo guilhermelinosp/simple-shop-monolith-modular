@@ -1,6 +1,6 @@
-using shop.services.products.domain.Entities;
+using Products.Domain.Entities;
 
-namespace shop.services.products.domain.Repositories;
+namespace Products.Domain.Repositories;
 
 public interface IProductRepository
 {

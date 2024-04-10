@@ -1,6 +1,5 @@
-namespace shop.services.orders.infrastructure.Repositories;
+namespace Order.Infrastructure.Repositories;
 
 public class OrderRepository
 {
-	
 }

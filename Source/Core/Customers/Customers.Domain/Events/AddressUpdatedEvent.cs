@@ -1,4 +1,4 @@
-namespace shop.services.customers.domain.Events;
+namespace Customer.Domain.Events;
 
 public class AddressUpdatedEvent(Guid customerId, string fullAddress) : IDomainEvent
 {

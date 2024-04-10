@@ -1,6 +1,4 @@
-using System;
-
-namespace shop.services.customers.domain.VOs;
+namespace Customer.Domain.VOs;
 
 public class Address(string street, string number, string city, string state, string zipCode)
 	: IEquatable<Address>

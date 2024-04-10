@@ -1,7 +1,7 @@
-using shop.services.products.domain.Events;
-using shop.services.products.domain.VOs;
+using Products.Domain.Events;
+using Products.Domain.VOs;
 
-namespace shop.services.products.domain.Entities;
+namespace Products.Domain.Entities;
 
 public class Product(string title, string description, decimal price, int quantity, Category? category)
 	: Aggregate
@@ -14,10 +14,7 @@ public class Product(string title, string description, decimal price, int quanti
 
 	public void Update(string description, decimal price, Category? category)
 	{
-		if (category != null)
-		{
-			Category = category;
-		}
+		if (category != null) Category = category;
 
 		Description = description;
 		Price = price;
@@ -27,6 +24,7 @@ public class Product(string title, string description, decimal price, int quanti
 
 	public static Product Create(string title, string description, decimal price, int quantity, Category? category)
 	{
-		return new Product(title, description, price, quantity, category);;
+		return new Product(title, description, price, quantity, category);
+		;
 	}
 }

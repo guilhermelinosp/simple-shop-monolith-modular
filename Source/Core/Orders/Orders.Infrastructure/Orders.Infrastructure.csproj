@@ -7,8 +7,4 @@
         <RootNamespace>Order.Infrastructure</RootNamespace>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="Contexts\" />
-    </ItemGroup>
-
 </Project>

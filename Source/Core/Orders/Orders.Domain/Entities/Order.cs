@@ -1,8 +1,8 @@
-using shop.services.orders.domain.Enums;
-using shop.services.orders.domain.Events;
-using shop.services.orders.domain.VOs;
+using Order.Domain.Enums;
+using Order.Domain.Events;
+using Order.Domain.VOs;
 
-namespace shop.services.orders.domain.Entities;
+namespace Order.Domain.Entities;
 
 public class Order : Aggregate
 {
@@ -31,7 +31,8 @@ public class Order : Aggregate
 		AddEvent(new OrderCreatedEvent(Id, Total, paymentMethod, Customer.Name, Customer.Email));
 	}
 
-	public Order(Guid id, Customer customer, DeliveryAddress deliveryAddress, PaymentAddress paymentAddress, PaymentMethod paymentMethod, List<OrderItem> items)
+	public Order(Guid id, Customer customer, DeliveryAddress deliveryAddress, PaymentAddress paymentAddress,
+		PaymentMethod paymentMethod, List<OrderItem> items)
 	{
 		Id = id;
 		Customer = customer;

@@ -1,4 +1,4 @@
-namespace shop.services.products.domain.Events;
+namespace Products.Domain.Events;
 
 public class ProductUpdatedEvent(Guid id) : IDomainEvent
 {
