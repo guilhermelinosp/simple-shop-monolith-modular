@@ -7,7 +7,24 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Folder Include="Queries\Handlers\"/>
+      <Folder Include="DTOs\Requests\" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+        <PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\Orders.Domain\Orders.Domain.csproj" />
+      <ProjectReference Include="..\Orders.Infrastructure\Orders.Infrastructure.csproj" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <Reference Include="Newtonsoft.Json">
+        <HintPath>..\..\..\..\..\..\..\.nuget\packages\newtonsoft.json\13.0.3\lib\net6.0\Newtonsoft.Json.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>

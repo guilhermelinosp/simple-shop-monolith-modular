@@ -12,7 +12,7 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.6"/>
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
     </ItemGroup>
 
     <ItemGroup>
@@ -22,9 +22,13 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Folder Include="Controllers\"/>
-        <Folder Include="Filters\" />
-        <Folder Include="Middlewars\" />
+      <Reference Include="MediatR">
+        <HintPath>..\..\..\..\..\..\..\.nuget\packages\mediatr\11.0.0\lib\netstandard2.1\MediatR.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Orders.Application\Orders.Application.csproj" />
     </ItemGroup>
 
 </Project>
